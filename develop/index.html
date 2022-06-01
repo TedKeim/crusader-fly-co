@@ -6,21 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crusader Fly Co.</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-    <header class="name">
-        <div>
-            <h1>Crusader Fly Co.</h1>
-            <img src="crusader-knight-large-patch-pl4827-9-1200x630.jpeg" class="logo" alt="Italian Trulli">
+ <!--main section-->
+ <div class="fly-shop-container">
 
+
+     <!--left nav-->
+     <div class="left-nav-column">
+        <a href="/"><img class="logo" src="" alt="Logo"></a>
+        <nav>
+            <ul class="left-navbar">
+                <li class="left-navbar-li-top active"><a href="#">Home</a></li>
+                <li><a href="#">Shop Flies</a></li>
+                <li><a href="#">Join the Crusade</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <ul>
+                <li>
+                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li>
+                    <a href="#" target="_blank"><i class="fa fa-yelp"></i></a>
+                </li>
+            </ul>
+        </div>
+     </div>
+
+
+     <!-- header section -->
+     <div class="header">
+        <h1>CRUSADER FLY CO</h1>
+        <h3 class="header-h3">insert subtitle here</h3>
+    </div>
+
+
+    <!-- body section -->
+    <div class="body">
+        <div class="body-container">
+
+            <div class="slideshow-container fade">
+                <!-- Full images with numbers and message Info -->
+                <div class="Containers">
+                  <img src="/carousel-images/smallmouth.jpeg" class="carousel-img1" style="width:100%">
+                  <div class="Info">First caption</div>
+                </div>
+              
+                <div class="Containers">
+                  <img src="/carousel-images/musky.jpeg" class="carousel-img2" style="width:100%">
+                  <div class="Info">Second Caption</div>
+                </div>
+              
+                <div class="Containers">
+                  <img src="/carousel-images/trout.jpeg" class="carousel-img3" style="width:100%">
+                  <div class="Info">Third Caption</div>
+                </div>
+
+                 
+                <div class="Containers">
+                    <img src="/carousel-images/flyguy.jpeg" class="carousel-img4" style="width:100%">
+                    <div class="Info">fourth Caption</div>
+                  </div>
+              
+                <!-- Back and forward buttons -->
+                <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              
+              <!-- The circles/dots -->
+              <div style="text-align:center">
+                <span class="dots" onclick="currentSlide(1)"></span>
+                <span class="dots" onclick="currentSlide(2)"></span>
+                <span class="dots" onclick="currentSlide(3)"></span>
+              </div> 
         </div>
 
-    </header>
+        <div class="parallax">
+            <div class="parallax-text">
+                <h2>POPULAR PATTERNS</h2>
+                <hr class="hr-two">
+                <p>this is where we put our popular patterns and/or HD series.</p>
+                <div id="popular-patterns-imgs">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
 
+                <!-- <img class="popular-patterns-img1" src="/popular-patterns-img/chockletts-mini-finesse-game-changer-tan-olive.jpeg" alt="gamechanger" style="height:10vh"> -->
+            </div>
+        </div>
 
-    <footer>
+    
 
-    </footer>
+        <footer>
+            <div class="logo-container">
+                <img class="footer-logo" src="/assets/img/Logo-Newport-Transparent-White.png"  alt="logo">
+                <h2 class="footer-h2">Insert our logo image above this header</h2>
+            </div>
+            <hr class="footer-hr">
+
+            <table class="footer-table">
+                <tr>
+                    <td>Email</td>
+                    <td>Call</td>
+                    <td>Visit</td>
+                </tr>
+                <tr class="third">
+                    <td>crusaderflyco@gmail.com</td>
+                    <td>420-696-6969</td>
+                    <td>Address here</td>
+                </tr>
+            </table>
+
+            <hr class="footer-hr">
+
+            <p><small>&copy; Copyright 2022</small></p>
+            <div class="social-icons-footer">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank"><i class="fa fa-yelp"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+</div>
 
 <script src="script.js"></script>
 </body>
