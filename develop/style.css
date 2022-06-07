@@ -188,8 +188,7 @@ body {
     width: 100%;
 }
 
-.parallax {
-    background-image: url('/assets/img/parallax-11.jpg');
+.popular-patterns {
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -204,7 +203,7 @@ body {
     margin: auto;
 }
 
-.parallax h2, .parallax p {
+.popular-patterns h2, .popular-patterns p {
     color: #fff;
     text-transform: uppercase;
     width: 80%;
@@ -212,7 +211,7 @@ body {
     padding: 10px;
 }
 
-.parallax h2 {
+.popular-patterns h2 {
     padding-top: 175px;
     font-size: 40px;
 }
